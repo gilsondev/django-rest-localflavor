@@ -11,7 +11,7 @@ django-rest-localflavor
 Country-specific serializers fields, to Django Rest Framework
 
 Documentation (soon)
--------------
+--------------------
 
 The full documentation is at https://django-rest-localflavor.readthedocs.org.
 
