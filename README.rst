@@ -10,7 +10,7 @@ django-rest-localflavor
 
 Country-specific serializers fields, to Django Rest Framework
 
-Documentation
+Documentation (soon)
 -------------
 
 The full documentation is at https://django-rest-localflavor.readthedocs.org.
@@ -24,15 +24,8 @@ Install django-rest-localflavor::
 
 Then use it in a project::
 
-    import rest_localflavor
-
-Features
---------
-
-* TODO
-
-Cookiecutter Tools Used in Making This Package
-----------------------------------------------
-
-*  cookiecutter
-*  cookiecutter-djangopackage
+    INSTALLED_APPS = (
+        # ...
+        'rest_framework',
+        'rest_localflavor',
+    )
