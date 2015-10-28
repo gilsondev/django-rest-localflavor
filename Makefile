@@ -53,3 +53,9 @@ release: clean
 sdist: clean
 	python setup.py sdist
 	ls -l dist
+
+makemessages:
+	cd rest_localflavor && django-admin makemessages --all
+
+compilemessages: makemessages
+	cd rest_localflavor && django-admin compilemessages

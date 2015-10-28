@@ -1,0 +1,61 @@
+# Django Rest Localflavor.
+# Copyright (C) 2015
+# This file is distributed under the same license as the PACKAGE package.
+# Gilson Filho <me@gilsondev.in>, 2015.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-10-28 17:00-0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Gilson Filho <me@gilsondev.in>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: br/serializers.py:35
+msgid "You can not insert a blank state."
+msgstr "Você não pode inserir um estado vazio."
+
+#: br/serializers.py:36
+msgid "You can not insert a invalid state."
+msgstr "Você não pode inserir um estado inválido."
+
+#: br/serializers.py:73
+msgid "Invalid CPF number."
+msgstr "Número de CPF inválido."
+
+#: br/serializers.py:74
+msgid "This field requires at most 11 digits or 14 characters."
+msgstr "Esse campo precisa de pelo menos 11 a 14 caracteres."
+
+#: br/serializers.py:75 br/serializers.py:139
+msgid "This field requires only numbers."
+msgstr "Esse campo aceita somente números."
+
+#: br/serializers.py:76
+#, python-brace-format
+msgid "Ensure this field has no more than {max_length} characters."
+msgstr "Assegure deste campo não ter mais que {max_length} caracteres."
+
+#: br/serializers.py:77
+#, python-brace-format
+msgid "Ensure this field has at least {min_length} characters."
+msgstr "Assegure deste campo não ter menos que {min_length} caracteres."
+
+#: br/serializers.py:138
+msgid "Invalid CNPJ number."
+msgstr "Número de CNPJ inválido."
+
+#: br/serializers.py:140
+msgid "This field requires at least 14 digits"
+msgstr "Esse campo precisa de no mínimo 14 dígitos"
+
+#: br/serializers.py:187
+msgid "Enter a zip code in the format XXXXX-XXX, XX.XXX-XXX or XXXXXXXX."
+msgstr "Entre com o CEP no formato XXXXX-XXX, XX.XXX-XXX ou XXXXXXXX."

@@ -1,0 +1,60 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-10-28 17:00-0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: br/serializers.py:35
+msgid "You can not insert a blank state."
+msgstr ""
+
+#: br/serializers.py:36
+msgid "You can not insert a invalid state."
+msgstr ""
+
+#: br/serializers.py:73
+msgid "Invalid CPF number."
+msgstr ""
+
+#: br/serializers.py:74
+msgid "This field requires at most 11 digits or 14 characters."
+msgstr ""
+
+#: br/serializers.py:75 br/serializers.py:139
+msgid "This field requires only numbers."
+msgstr ""
+
+#: br/serializers.py:76
+#, python-brace-format
+msgid "Ensure this field has no more than {max_length} characters."
+msgstr ""
+
+#: br/serializers.py:77
+#, python-brace-format
+msgid "Ensure this field has at least {min_length} characters."
+msgstr ""
+
+#: br/serializers.py:138
+msgid "Invalid CNPJ number."
+msgstr ""
+
+#: br/serializers.py:140
+msgid "This field requires at least 14 digits"
+msgstr ""
+
+#: br/serializers.py:187
+msgid "Enter a zip code in the format XXXXX-XXX, XX.XXX-XXX or XXXXXXXX."
+msgstr ""
