@@ -8,6 +8,9 @@ django-rest-localflavor
 .. image:: https://travis-ci.org/gilsondev/django-rest-localflavor.png?branch=master
     :target: https://travis-ci.org/gilsondev/django-rest-localflavor
 
+.. image:: http://smallactsmanifesto.org/static/images/smallacts-badge-80x15-blue.png
+    :target: http://smallactsmanifesto.org
+
 Country-specific serializers fields, to Django Rest Framework
 
 Documentation (soon)

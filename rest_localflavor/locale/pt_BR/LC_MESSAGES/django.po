@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-28 17:00-0200\n"
+"POT-Creation-Date: 2015-11-04 10:21-0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Gilson Filho <me@gilsondev.in>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -59,3 +59,73 @@ msgstr "Esse campo precisa de no mínimo 14 dígitos"
 #: br/serializers.py:187
 msgid "Enter a zip code in the format XXXXX-XXX, XX.XXX-XXX or XXXXXXXX."
 msgstr "Entre com o CEP no formato XXXXX-XXX, XX.XXX-XXX ou XXXXXXXX."
+
+#: ca/ca_provinces.py:6
+msgid "Alberta"
+msgstr ""
+
+#: ca/ca_provinces.py:7
+msgid "British Columbia"
+msgstr ""
+
+#: ca/ca_provinces.py:8
+msgid "Manitoba"
+msgstr ""
+
+#: ca/ca_provinces.py:9
+msgid "New Brunswick"
+msgstr ""
+
+#: ca/ca_provinces.py:10
+msgid "Newfoundland and Labrador"
+msgstr ""
+
+#: ca/ca_provinces.py:11
+msgid "Northwest Territories"
+msgstr ""
+
+#: ca/ca_provinces.py:12
+msgid "Nova Scotia"
+msgstr ""
+
+#: ca/ca_provinces.py:13
+msgid "Nunavut"
+msgstr ""
+
+#: ca/ca_provinces.py:14
+msgid "Ontario"
+msgstr ""
+
+#: ca/ca_provinces.py:15
+msgid "Prince Edward Island"
+msgstr ""
+
+#: ca/ca_provinces.py:16
+msgid "Quebec"
+msgstr ""
+
+#: ca/ca_provinces.py:17
+msgid "Saskatchewan"
+msgstr ""
+
+#: ca/ca_provinces.py:18
+msgid "Yukon"
+msgstr ""
+
+#: ca/serializers.py:34
+#, fuzzy
+#| msgid "Enter a zip code in the format XXXXX-XXX, XX.XXX-XXX or XXXXXXXX."
+msgid "Enter a postal code in the format XXX XXX."
+msgstr "Entre com o CEP no formato XXXXX-XXX, XX.XXX-XXX ou XXXXXXXX."
+
+#: ca/serializers.py:60
+msgid "Phone numbers must be in XXX-XXX-XXXX format."
+msgstr ""
+
+#: ca/serializers.py:88
+msgid "Enter a Canadian province or territory."
+msgstr ""
+
+#: ca/serializers.py:128
+msgid "Enter a valid Canadian Social Insurance number in XXX-XXX-XXX format."
+msgstr ""
