@@ -3,6 +3,11 @@
 History
 -------
 
+1.2.1 (2015-11-03)
+++++++++++++++++
+
+* Insert locale files to package and upload on PyPI.
+
 1.2 (2015-11-03)
 ++++++++++++++++
 
