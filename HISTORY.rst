@@ -3,6 +3,11 @@
 History
 -------
 
+1.2.3 (2016-04-07)
+++++++++++++++++++
+
+* Fix validator imports to Brazil serializers
+
 1.2.2 (2015-11-04)
 ++++++++++++++++++
 
