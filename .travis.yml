@@ -3,9 +3,9 @@
 language: python
 
 python:
-  - "3.4"
-  - "3.3"
   - "2.7"
+  - "3.4"
+  - "3.5"
 
 before_install:
   - pip install codecov
