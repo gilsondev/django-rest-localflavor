@@ -2,6 +2,7 @@
 from __future__ import unicode_literals
 
 import re
+import django
 
 from django.utils import six
 from django.core.validators import EMPTY_VALUES
@@ -9,7 +10,12 @@ from django.utils.translation import ugettext_lazy as _
 
 from rest_framework import serializers as drf_serializers
 from rest_framework.fields import empty
-from rest_framework.compat import MaxLengthValidator, MinLengthValidator
+
+# MinValueValidator, MaxValueValidator et al. only accept `message` in 1.8+
+if django.VERSION >= (1, 8):
+    from django.core.validators import MinLengthValidator, MaxLengthValidator
+else:
+    from rest_framework.compat import MaxLengthValidator, MinLengthValidator
 
 from .br_states import STATE_CHOICES
 
