@@ -42,3 +42,10 @@ output/*/index.html
 
 # Sphinx
 docs/_build
+
+# Virtualenv
+venv
+.venv
+
+# Others
+.vscode
