@@ -10,7 +10,7 @@ from rest_framework.serializers import CharField
 
 class DRFTestCase(SimpleTestCase):
     """
-    Test case created to overrited the assertFieldOutput, to
+    Test case created to override the assertFieldOutput, to
         verify if test with valid and invalid data it was a success.
     """
 
